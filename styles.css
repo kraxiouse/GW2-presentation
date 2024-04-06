@@ -1,0 +1,87 @@
+/* Réinitialisation des marges et des rembourrages */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Style général de la page */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Style pour l'en-tête */
+header {
+    padding: 20px;
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+}
+
+/* Style pour les liens dans la barre de navigation */
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Style pour le lien "Extensions" dans la barre de navigation */
+nav ul li a[href="#extensions"] {
+    color: #ff9900; /* Couleur orange */
+}
+
+/* Style pour le contenu principal */
+main {
+    padding: 20px;
+}
+
+/* Style pour les sections */
+section {
+    margin-bottom: 20px;
+    background-color: #fff; /* Fond blanc */
+    padding: 20px;
+    border: 1px solid #555; /* Bordure grise foncée */
+}
+
+/* Style pour les titres de section */
+section h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+/* Style pour le texte dans les paragraphes */
+section p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+/* Style pour les liens */
+a {
+    color: #007bff; /* Couleur bleue */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Style pour le pied de page */
+footer {
+    padding: 20px;
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    /* Style pour les sections */
+section {
+    margin-bottom: 20px;
+    background-color: #fff; /* Fond blanc */
+    padding: 20px;
+    border: 1px solid #555; /* Bordure grise foncée */
+}
+
+}
+
